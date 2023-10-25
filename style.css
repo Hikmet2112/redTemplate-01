@@ -1,0 +1,48 @@
+.logo-custom{
+   height:150px ;
+   width: 300px ;
+
+}
+
+.nav-custom{
+    display: flex;
+    justify-content: space-around ;
+
+}
+header{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 2%, rgba(255,255,255,1) 98%), url(./media/switzerland-862870_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+
+}
+
+body{
+    /* background-color: black; */
+    height: 2000px;
+    
+}
+
+h1{
+    font-size: 100px;
+    color: #8b0102;
+}
+.img-custom{
+    background-size: cover;
+    height:600px  ;
+    width:900px ;
+    position: relative;
+    right: 92px;
+    width: 100vw;
+}
+.testo-sez1{
+    font-size: 22px;
+    font-style:italic;
+    
+}
+
+i{
+    font-size: 40px;
+}
