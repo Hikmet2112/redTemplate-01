@@ -15,27 +15,28 @@ header{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 100vw;
    
 
 }
 
 body{
-    /* background-color: black; */
-    height: 2000px;
+    padding: 0;
+ 
+    margin: 0;
     
 }
 
-h1{
+ h1{
     font-size: 100px;
     color: #8b0102;
-}
+    margin-top: 150px;
+    
+} 
 .img-custom{
-    background-size: cover;
-    height:600px  ;
-    width:900px ;
     position: relative;
-    right: 92px;
-    width: 100vw;
+    bottom: 0;
+    
 }
 .testo-sez1{
     font-size: 22px;
@@ -45,4 +46,154 @@ h1{
 
 i{
     font-size: 40px;
+}
+
+.custom-col{
+    border-bottom:solid 4px #8b0102;
+    position:relative ;
+ 
+}
+
+.i-custom::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:rgb(255,255,255);
+    border: 2px solid #8b0102 ;
+    bottom: -9px;
+    left: 50%;
+    transform: translateX(-50%);
+  
+}
+.btn-custom{
+    width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #8b0102;
+    color: rgb(255,255,255);
+    text-align: center;
+    text-wrap: nowrap;
+    padding: 5px;
+    border: 0;
+    margin-top: 65px;
+}
+
+
+h2,h3,h4{
+    color: #8b0102;
+}
+
+
+.section-grey{
+    background-color:#ececec ;
+    
+    
+}
+.rigast{
+    position: relative;
+    left: 4vw;
+    border-left: #8b0102 solid 4px;
+}
+
+
+.i-custom2::before{
+    content: "";
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color:rgb(255,255,255);
+    border: 2px solid #8b0102 ;
+    top:10px;
+    left:-10px;
+   
+}
+
+.img-custom2{
+    position: absolute;
+    
+}
+.img-custom3{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 30%;
+}
+
+
+
+
+  .imgcustom4 {
+   height: 200px;
+   background-repeat: no-repeat; 
+   border-radius: 50%;
+   width: 200px;
+
+ }
+
+ .cornice {
+    object-fit: cover;
+    border-radius: 50%;
+    border: #8b0102 solid 2px;
+    background-size: cover;
+    min-height: 220px;
+    max-width: 220px;
+    padding: 5px;
+   
+
+
+ }
+
+ .prova{
+    height: 1000px;
+ }
+
+
+ .icona{
+   font-size: 25px;
+   color: #8b0102;
+ }
+
+ .picture1{
+
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+
+ }
+
+
+.quadro{
+    min-height: 300px;
+    max-width: 300px;
+    border: #8b0102 solid 4px;
+    border-radius: 50%;
+
+
+
+}
+
+
+footer{
+    background-color: #8b0102;
+}
+
+
+.img-custom0{
+    position: relative;
+    bottom: 0;
+    right: 35px;
+    width: 100%;
+}
+
+
+.txfooter{
+    color: #ececec;
+}
+
+.iconapr{
+    font-size: 2px;
 }
