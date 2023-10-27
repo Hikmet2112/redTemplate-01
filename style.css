@@ -20,12 +20,13 @@ header{
 
 }
 
+
 body{
     padding: 0;
- 
     margin: 0;
     
 }
+
 
  h1{
     font-size: 100px;
@@ -34,19 +35,32 @@ body{
     
 } 
 .img-custom{
+    width: 90vw; 
     position: relative;
-    bottom: 0;
+    transform: scaleX(1.1);
     
 }
+
+
+.img-custom-tree2{
+    transform: scaleX(1.5);
+    position: relative;
+    left: 179px;
+}
+
+
 .testo-sez1{
     font-size: 22px;
     font-style:italic;
     
 }
 
+
 i{
     font-size: 40px;
+
 }
+
 
 .custom-col{
     border-bottom:solid 4px #8b0102;
@@ -67,6 +81,8 @@ i{
     transform: translateX(-50%);
   
 }
+
+
 .btn-custom{
     width: 160px;
     height: 50px;
@@ -91,6 +107,8 @@ h2,h3,h4{
     
     
 }
+
+
 .rigast{
     position: relative;
     left: 4vw;
@@ -111,29 +129,32 @@ h2,h3,h4{
    
 }
 
+
 .img-custom2{
     position: absolute;
     
 }
+
+
 .img-custom3{
     position: absolute;
     bottom: 0;
     right: 0;
     width: 30%;
+
 }
 
 
-
-
-  .imgcustom4 {
+.imgcustom4{
    height: 200px;
    background-repeat: no-repeat; 
    border-radius: 50%;
    width: 200px;
 
- }
+}
 
- .cornice {
+
+.cornice {
     object-fit: cover;
     border-radius: 50%;
     border: #8b0102 solid 2px;
@@ -141,38 +162,28 @@ h2,h3,h4{
     min-height: 220px;
     max-width: 220px;
     padding: 5px;
-   
+
+}
 
 
- }
+.prova{
+    position: relative;
+    top: -10px;
+} 
 
- .prova{
-    height: 1000px;
- }
 
-
- .icona{
+.icona{
    font-size: 25px;
    color: #8b0102;
- }
+}
 
- .picture1{
+
+.picture1{
 
     height: 280px;
     width: 280px;
     border-radius: 50%;
     background-repeat: no-repeat;
-
- }
-
-
-.quadro{
-    min-height: 300px;
-    max-width: 300px;
-    border: #8b0102 solid 4px;
-    border-radius: 50%;
-
-
 
 }
 
@@ -184,9 +195,9 @@ footer{
 
 .img-custom0{
     position: relative;
-    bottom: 0;
-    right: 35px;
+    left: -13px; 
     width: 100%;
+    transform: scaleX(1.025);
 }
 
 
@@ -194,6 +205,18 @@ footer{
     color: #ececec;
 }
 
+
 .iconapr{
     font-size: 2px;
+}
+
+
+.cornice:hover{
+transform: scale(1.5);
+transition: 0.3s;
+}
+
+.link-footer{
+  text-decoration: none;
+  list-style-type: none;
 }
